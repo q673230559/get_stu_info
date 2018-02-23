@@ -3,7 +3,7 @@
 
 import requests
 
-import get_image
+from core import get_image
 
 # jpg_link = "http://yjs.ccnu.edu.cn/yjs/security/initDigitPicture.do?Rgb=255|255|255"  #图片链接
 # request.urlretrieve(jpg_link, "111.jpg")

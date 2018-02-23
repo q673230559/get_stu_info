@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 # __author__ = 'Administrator'
-import get_info
 import time
+
+from core import get_info
+
 start = 0
 end = 0
 

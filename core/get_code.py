@@ -2,7 +2,7 @@
 # __author__ = 'Administrator'
 import requests
 
-import get_image
+from core import get_image
 
 codeurl = "http://yjs.ccnu.edu.cn/yjs/security/initDigitPicture.do?Rgb=255|255|255"
 valcode = requests.get(codeurl)

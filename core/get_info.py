@@ -1,15 +1,6 @@
 # -*- coding: utf-8 -*-
 # __author__ = 'Administrator'
 
-import http.cookiejar
-import urllib.request
-from urllib import parse
-from urllib import request
-import re
-from bs4 import BeautifulSoup
-import get_image
-from mature import read_response4, read_response5, read_response6, read_response7, read_response8
-
 
 def get_info(stu_code):
     """
